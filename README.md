@@ -1,5 +1,6 @@
 # CardReader-IO
 ほっくんハウスのカードリーダーを使用するためのライブラリです。(識別子はFELICA IDMを使用する簡易的なものです)
+Windowsのみ対応。
 
 ## 送信コマンド一覧
 
@@ -14,3 +15,6 @@
 ## 受信コマンド一覧
 
 1. ERR:UNKNOWN_CMD (存在しないコマンドが指定されました。)
+
+## requirement
+1. System.IO.Ports (Windows only)
