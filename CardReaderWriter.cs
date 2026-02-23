@@ -135,10 +135,9 @@ namespace Bngrw
                         continue;
                     }
                 }
-                catch (Exception ex)
+                catch
                 {
-                    RawLineReceived?.Invoke("RXERR:" + ex.Message);
-                    Thread.Sleep(200);
+
                 }
             }
         }
